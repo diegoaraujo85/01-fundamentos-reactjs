@@ -8,3 +8,17 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+
+  img {
+    box-sizing: initial;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr; /* em dispositivos menores, ocupe toda a largura da tela, com uma coluna */
+  }
+}
