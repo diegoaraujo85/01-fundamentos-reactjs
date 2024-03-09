@@ -116,3 +116,7 @@
 .commentForm button[type=submit]:not(:disabled):hover { /* se o botão estiver habilitado, hover */
   background: var(--green-300);
 }
+
+.commentList {
+  margin-top: 2rem;
+}
